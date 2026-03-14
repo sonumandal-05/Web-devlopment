@@ -1,0 +1,107 @@
+h5 {
+    color: rgb(219, 131, 15);
+}
+
+/* /* for changing the font of the whole page, we can use the universal selector (*) to 
+apply the font-family to all elements on the page. */
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
+
+button{
+    color: rgb(14, 89, 175);
+    background-color: rgb(227, 216, 216);
+}
+
+p{
+    color: blue;
+    background-color: rgb(236, 203, 115);
+font-style: initial;
+font-size: smaller;
+font-weight: 200;
+font-display: block;
+}
+
+/* this is using of id. */
+
+#skm{
+    color: blue;
+}
+
+
+#heading2{
+background-color: black;
+color: rgb(108, 235, 119);
+}
+
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
+
+/* this is use of class */
+
+.myclass{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+body{
+    background-color: #FFF7CD;
+}
+
+h6{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+}
+
+table{
+    border: rgb(175, 47, 47);
+    color: black;
+    box-align: center;
+    
+}
+
+p{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h4{
+    color: rgb(110, 141, 139);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-weight: lighter;
+    font-family: arial;
+    font-size: large;
+}
+
+
+div{
+    background-color: rgb(255, 0, 0);
+    border-style: dotted;
+    height: 150px;
+    width: 250px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+/* Questions:- */
+
+#box{
+    background-color: blue;
+    color: rgb(243, 16, 61);
+}
