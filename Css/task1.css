@@ -1,0 +1,115 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Navbar */
+
+.navbar{
+height:60px;
+background-color:#131921;
+color:white;
+
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+
+.nav-logo h2{
+color:#ff9900;
+}
+
+.nav-address{
+font-size:12px;
+}
+
+.location{
+font-size:14px;
+font-weight:bold;
+}
+
+.nav-search{
+display:flex;
+width:400px;
+}
+
+.nav-search input{
+width:100%;
+padding:6px;
+border:none;
+}
+
+.nav-search button{
+background-color:#febd69;
+border:none;
+padding:6px 10px;
+cursor:pointer;
+}
+
+.bold{
+font-weight:bold;
+}
+
+.nav-cart{
+font-weight:bold;
+}
+
+
+/* Footer */
+
+.footer-panel1{
+background-color:#37475a;
+color:white;
+
+text-align:center;
+
+padding:15px;
+
+margin-top:30px;
+}
+
+.footer-panel2{
+background-color:#222f3d;
+color:white;
+
+display:flex;
+justify-content:space-evenly;
+
+padding:30px;
+}
+
+.footer-panel2 ul{
+list-style:none;
+}
+
+.footer-panel2 ul p{
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.footer-panel2 li{
+margin:5px 0;
+font-size:14px;
+}
+
+.footer-panel3{
+background-color:#131921;
+color:white;
+
+text-align:center;
+
+padding:15px;
+}
+
+footer{
+    margin-top:auto;
+}
