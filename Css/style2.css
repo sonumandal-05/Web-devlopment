@@ -1,0 +1,76 @@
+body {
+    background-image: url("sky_pic.jpg");
+    background-size: cover;
+    color: white;
+}
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: rgb(143, 241, 164);
+}
+
+/* All Div Boxes */
+
+div {
+    width: 120px;
+    height: 120px;
+
+    border: 2px solid black;
+
+    display: inline-block;
+
+    margin: 20px;
+}
+
+/* Sunflower Box */
+
+#box {
+    background-image: url("sunflower_pic.jpg");
+    background-size: cover;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    padding: 10px;
+}
+
+
+
+#box1 {
+    background-image: url("gt650_pic.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    
+    position: absolute;
+
+
+    table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+
+    }
+
+
+
+
+
+
+    .footer{
+    background-color:#000000d9;
+    color:white;
+    
+    text-align:center;
+    
+    padding:15px;
+    
+    position:fixed;
+    bottom:0;
+    width:100%;
+    
+    font-size:14px;
+}
